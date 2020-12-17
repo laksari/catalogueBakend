@@ -52,6 +52,8 @@ public class CatServiceApplication implements CommandLineRunner {
 		/*List<Produit> lstProduit = produitRepository.findAll();
 
 		lstProduit.stream().forEach((p) -> System.out.println(p));*/
+		
+		System.out.println("test");
 
 	}
 
