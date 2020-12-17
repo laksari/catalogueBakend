@@ -49,9 +49,9 @@ public class CatServiceApplication implements CommandLineRunner {
 		produitRepository.save(new Produit(null, "Home cinema",330.00, 10));
 		produitRepository.save(new Produit(null, "Disque dur interne", 60.00, 10));*/
 
-		List<Produit> lstProduit = produitRepository.findAll();
+		/*List<Produit> lstProduit = produitRepository.findAll();
 
-		lstProduit.stream().forEach((p) -> System.out.println(p));
+		lstProduit.stream().forEach((p) -> System.out.println(p));*/
 
 	}
 
