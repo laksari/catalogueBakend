@@ -22,6 +22,7 @@ public class CatServiceApplication implements CommandLineRunner {
 	RepositoryRestConfiguration restConfig;
 
 	public static void main(String[] args) {
+		//test
 		SpringApplication.run(CatServiceApplication.class, args);
 	}
 
