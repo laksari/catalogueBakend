@@ -17,7 +17,8 @@ public class CatServiceApplication implements CommandLineRunner {
 
 	@Autowired
 	private ProduitRepository produitRepository;
-	//test
+	//test 
+	//toto
 	
 	@Autowired
 	RepositoryRestConfiguration restConfig;
