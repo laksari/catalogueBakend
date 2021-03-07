@@ -22,6 +22,7 @@ public class CatServiceApplication implements CommandLineRunner {
 	
 	@Autowired
 	RepositoryRestConfiguration restConfig;
+	//test66
 
 	public static void main(String[] args) {
 		//test
@@ -55,6 +56,7 @@ public class CatServiceApplication implements CommandLineRunner {
 		List<Produit> lstProduit = produitRepository.findAll();
 
 		lstProduit.stream().forEach((p) -> System.out.println(p));
+		//test77777
 
 	}
 
