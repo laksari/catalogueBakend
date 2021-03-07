@@ -34,8 +34,9 @@ public class CatServiceApplication implements CommandLineRunner {
 		
 		//Exposer l'id de l'objet
 		restConfig.exposeIdsFor(Produit.class);
+		//test1
 
-		/*produitRepository.save(new Produit(null, "ordinateur HP", 400.00, 20));
+		produitRepository.save(new Produit(null, "ordinateur HP", 400.00, 20));
 		produitRepository.save(new Produit(null, "ordinateur samsung", 300.00, 10));
 		produitRepository.save(new Produit(null, "ordinateur ACER", 450.00, 20));
 		produitRepository.save(new Produit(null, "ordinateur MSI", 800.00, 20));
@@ -51,11 +52,12 @@ public class CatServiceApplication implements CommandLineRunner {
 		produitRepository.save(new Produit(null, "cle usb", 15.00, 100));
 		produitRepository.save(new Produit(null, "Appareil photo", 80.00, 25));
 		produitRepository.save(new Produit(null, "Home cinema",330.00, 10));
-		produitRepository.save(new Produit(null, "Disque dur interne", 60.00, 10));*/
+		produitRepository.save(new Produit(null, "Disque dur interne", 60.00, 10));
 
 		List<Produit> lstProduit = produitRepository.findAll();
 
 		lstProduit.stream().forEach((p) -> System.out.println(p));
+		//test 5
 
 	}
 
